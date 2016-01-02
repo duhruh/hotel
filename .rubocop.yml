@@ -1,5 +1,22 @@
-Style/EmptyLinesAroundClassBody:
-  EnforcedStyle: empty_lines
-
-Style/EmptyLinesAroundModuleBody:
-  EnforcedStyle: empty_lines
+# inherit_from: .rubocop_todo.yml
+AllCops:
+  Include:
+    - 'Gemfile'
+    - 'Rakefile'
+    - '**/*.rake'
+Documentation:
+  Enabled: false
+Metrics/LineLength:
+  Max: 100
+Style/PercentLiteralDelimiters:
+  PreferredDelimiters:
+    '%':  ()
+    '%q': ()
+    '%Q': ()
+    '%i': []
+    '%I': []
+    '%r': ()
+    '%s': ()
+    '%w': []
+    '%W': []
+    '%x': ()

@@ -16,6 +16,6 @@ test/tmp
 test/version_tmp
 tmp
 vendor
-
-# Sublime project files
-*.sublime-project
+.ruby-version
+.env
+/spec/examples.txt
